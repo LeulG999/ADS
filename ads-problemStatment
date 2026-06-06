@@ -1,0 +1,11 @@
+Problem Statement/Description:
+
+Adventist Dental Surgeries (ADS), LLC are a company that are in the business of managing a growing network of dental surgeries which are located in multiple cities across the United States. Assume you have been hired by the company, as a Senior Software Engineer and tasked to lead the effort in designing and developing an application which the company will be using to manage their business.
+
+The system will be used by an Office Clerk to book Appointments for Patients who require dental services, including the Patient’s First Name, Last Name, Mailing Address, Phone Number, Email and Date of Birth. A Patient can call-in to request appointments to see a dentist. Upon receiving a request for an appointment, the Office Clerk can then book the appointment and the system will send a confirmation email notifying the Patient and the appointment gets recorded accordingly.
+
+Dentists will be able to sign-in to the system and view a listing of all their Appointments, including details of the Patients who they have been scheduled to see. Each appointment is normally made for a specific date and time and the dentist is expected to see and treat the patient at one of ADS’s surgery locations. The system should provide information about each Surgery, including its name, location address and telephone number. Patients should be able to sign-in to the system and view their appointments, including the information of the dentist who they have been booked to see. Patients should also be able to request to cancel or change their appointments.
+
+The system also requires having a control mechanism such that one dentist cannot be booked for more than 5 appointments within any given week. Also, the system should prevent a Patient from getting a new appointment booked, if they have an outstanding, unpaid bill for dental service they have received for a time that exceeds 12 months.
+
+An important requirement for the Company's Directors who also use the system, is for the System to find, compute and display the list of Quarterly Upcoming Appointments, which are Appointments where the booking date is in the next Quarter (e.g. if the current Date is 2026-June-6, then next Quarter is, 3rd Quarter of the year 2026, or if the current Date is 2026-November-6, then next Quarter is, 1st Quarter of the year 2027, etc).
